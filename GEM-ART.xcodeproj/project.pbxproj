@@ -13,9 +13,18 @@
 		7D70E0B8250E9F80000CE625 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D70E0B6250E9F80000CE625 /* Main.storyboard */; };
 		7D70E0BA250E9F83000CE625 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D70E0B9250E9F83000CE625 /* Assets.xcassets */; };
 		7D70E0BD250E9F83000CE625 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D70E0BB250E9F83000CE625 /* LaunchScreen.storyboard */; };
+		7D70E0C5250EA57A000CE625 /* Stickers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D70E0C4250EA57A000CE625 /* Stickers.swift */; };
+		7D70E0C9250EB22B000CE625 /* StickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D70E0C8250EB22B000CE625 /* StickerCell.swift */; };
+		7DAAE423251FEEF700E13468 /* sticker.csv in Resources */ = {isa = PBXBuildFile; fileRef = 7DAAE422251FEEF600E13468 /* sticker.csv */; };
+		7DAAE426251FF47F00E13468 /* csv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DAAE425251FF47F00E13468 /* csv.swift */; };
+		7DAAE4292521815E00E13468 /* StickerDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DAAE4282521815E00E13468 /* StickerDetailVC.swift */; };
+		7DAAE42D25229D2200E13468 /* OrangeJuice.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7DAAE42B2522874700E13468 /* OrangeJuice.ttf */; };
+		7DAAE42E25229D2B00E13468 /* SquareLemon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7DAAE42C25228D9D00E13468 /* SquareLemon.ttf */; };
+		C3757CC57F0D1FF6D472B9D7 /* Pods_GEM_ART.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82C7ADB9907764D49ACF2B5B /* Pods_GEM_ART.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		460F13CFC388C1622318FA2C /* Pods-GEM-ART.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GEM-ART.release.xcconfig"; path = "Target Support Files/Pods-GEM-ART/Pods-GEM-ART.release.xcconfig"; sourceTree = "<group>"; };
 		7D70E0AD250E9F7F000CE625 /* GEM-ART.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GEM-ART.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D70E0B0250E9F7F000CE625 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7D70E0B2250E9F7F000CE625 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +33,15 @@
 		7D70E0B9250E9F83000CE625 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D70E0BC250E9F83000CE625 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D70E0BE250E9F83000CE625 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D70E0C4250EA57A000CE625 /* Stickers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stickers.swift; sourceTree = "<group>"; };
+		7D70E0C8250EB22B000CE625 /* StickerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerCell.swift; sourceTree = "<group>"; };
+		7DAAE422251FEEF600E13468 /* sticker.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sticker.csv; sourceTree = "<group>"; };
+		7DAAE425251FF47F00E13468 /* csv.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = csv.swift; sourceTree = "<group>"; };
+		7DAAE4282521815E00E13468 /* StickerDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerDetailVC.swift; sourceTree = "<group>"; };
+		7DAAE42B2522874700E13468 /* OrangeJuice.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = OrangeJuice.ttf; sourceTree = "<group>"; };
+		7DAAE42C25228D9D00E13468 /* SquareLemon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SquareLemon.ttf; sourceTree = "<group>"; };
+		82C7ADB9907764D49ACF2B5B /* Pods_GEM_ART.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GEM_ART.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC61518F4127DFF9BFE1124E /* Pods-GEM-ART.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GEM-ART.debug.xcconfig"; path = "Target Support Files/Pods-GEM-ART/Pods-GEM-ART.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +49,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3757CC57F0D1FF6D472B9D7 /* Pods_GEM_ART.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6D4828278652C2C88B7BD5C8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC61518F4127DFF9BFE1124E /* Pods-GEM-ART.debug.xcconfig */,
+				460F13CFC388C1622318FA2C /* Pods-GEM-ART.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		7D70E0A4250E9F7F000CE625 = {
 			isa = PBXGroup;
 			children = (
 				7D70E0AF250E9F7F000CE625 /* GEM-ART */,
 				7D70E0AE250E9F7F000CE625 /* Products */,
+				6D4828278652C2C88B7BD5C8 /* Pods */,
+				A8349372FBB4DC8DEB9CB331 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +87,78 @@
 		7D70E0AF250E9F7F000CE625 /* GEM-ART */ = {
 			isa = PBXGroup;
 			children = (
+				7DAAE42A2522870900E13468 /* Fonts */,
+				7DAAE4272521811300E13468 /* Controller */,
+				7DAAE424251FF29200E13468 /* Util */,
+				7DAAE41F251FEEB100E13468 /* Resources */,
+				7D70E0C6250EB1AE000CE625 /* Model */,
+				7D70E0C7250EB1CC000CE625 /* View */,
 				7D70E0B0250E9F7F000CE625 /* AppDelegate.swift */,
 				7D70E0B2250E9F7F000CE625 /* SceneDelegate.swift */,
-				7D70E0B4250E9F80000CE625 /* ViewController.swift */,
 				7D70E0B6250E9F80000CE625 /* Main.storyboard */,
 				7D70E0B9250E9F83000CE625 /* Assets.xcassets */,
 				7D70E0BB250E9F83000CE625 /* LaunchScreen.storyboard */,
 				7D70E0BE250E9F83000CE625 /* Info.plist */,
 			);
 			path = "GEM-ART";
+			sourceTree = "<group>";
+		};
+		7D70E0C6250EB1AE000CE625 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7D70E0C4250EA57A000CE625 /* Stickers.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7D70E0C7250EB1CC000CE625 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7D70E0C8250EB22B000CE625 /* StickerCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7DAAE41F251FEEB100E13468 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7DAAE422251FEEF600E13468 /* sticker.csv */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7DAAE424251FF29200E13468 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				7DAAE425251FF47F00E13468 /* csv.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		7DAAE4272521811300E13468 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7D70E0B4250E9F80000CE625 /* ViewController.swift */,
+				7DAAE4282521815E00E13468 /* StickerDetailVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7DAAE42A2522870900E13468 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				7DAAE42C25228D9D00E13468 /* SquareLemon.ttf */,
+				7DAAE42B2522874700E13468 /* OrangeJuice.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		A8349372FBB4DC8DEB9CB331 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82C7ADB9907764D49ACF2B5B /* Pods_GEM_ART.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +168,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7D70E0C1250E9F83000CE625 /* Build configuration list for PBXNativeTarget "GEM-ART" */;
 			buildPhases = (
+				64DCD6FFC5D2DF63E01C6558 /* [CP] Check Pods Manifest.lock */,
 				7D70E0A9250E9F7F000CE625 /* Sources */,
 				7D70E0AA250E9F7F000CE625 /* Frameworks */,
 				7D70E0AB250E9F7F000CE625 /* Resources */,
@@ -126,20 +221,52 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D70E0BD250E9F83000CE625 /* LaunchScreen.storyboard in Resources */,
+				7DAAE42D25229D2200E13468 /* OrangeJuice.ttf in Resources */,
 				7D70E0BA250E9F83000CE625 /* Assets.xcassets in Resources */,
+				7DAAE423251FEEF700E13468 /* sticker.csv in Resources */,
 				7D70E0B8250E9F80000CE625 /* Main.storyboard in Resources */,
+				7DAAE42E25229D2B00E13468 /* SquareLemon.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		64DCD6FFC5D2DF63E01C6558 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GEM-ART-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7D70E0A9250E9F7F000CE625 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DAAE426251FF47F00E13468 /* csv.swift in Sources */,
+				7DAAE4292521815E00E13468 /* StickerDetailVC.swift in Sources */,
 				7D70E0B5250E9F80000CE625 /* ViewController.swift in Sources */,
+				7D70E0C5250EA57A000CE625 /* Stickers.swift in Sources */,
 				7D70E0B1250E9F7F000CE625 /* AppDelegate.swift in Sources */,
+				7D70E0C9250EB22B000CE625 /* StickerCell.swift in Sources */,
 				7D70E0B3250E9F7F000CE625 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +409,7 @@
 		};
 		7D70E0C2250E9F83000CE625 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC61518F4127DFF9BFE1124E /* Pods-GEM-ART.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +428,7 @@
 		};
 		7D70E0C3250E9F83000CE625 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 460F13CFC388C1622318FA2C /* Pods-GEM-ART.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
